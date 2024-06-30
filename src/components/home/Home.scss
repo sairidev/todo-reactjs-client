@@ -1,0 +1,41 @@
+#home {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: #43464b;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    * {
+      color: white;
+      text-align: center;
+    }
+    div {
+      width: 120px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      cursor: pointer;
+
+      #avatar {
+        height: 25px;
+        width: 25px;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+      }
+
+      #logout {
+        text-decoration: underline;
+        text-decoration-color: inherit;
+        cursor: pointer;
+        display: block;
+      }
+    }
+  }
+}

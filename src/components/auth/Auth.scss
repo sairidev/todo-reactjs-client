@@ -1,0 +1,30 @@
+#auth-form {
+  height: 400px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #43464b;
+  padding: 20px;
+  border-radius: 10px;
+
+  * {
+    color: white;
+    text-align: center;
+  }
+
+  input {
+    width: 100%;
+    border-bottom: 1px solid rgb(116, 116, 116);
+    padding: 10px;
+  }
+
+  #form-type {
+    text-decoration: underline;
+    text-decoration-color: inherit;
+    cursor: pointer;
+    display: block;
+    margin-top: 10px;
+  }
+}

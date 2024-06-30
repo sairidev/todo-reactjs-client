@@ -1,0 +1,39 @@
+#todo-list {
+  width: 100%;
+
+  #todo-header * {
+    font-weight: 400;
+  }
+
+  #todo-header,
+  #todo-body,
+  .todo {
+    width: 100%;
+    border-bottom: 1px solid #43464b2c;
+    padding: 5px 0;
+  }
+
+  #todo-body {
+    border-bottom: none;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-height: 20vh;
+  }
+
+  #todo-header span,
+  #todo-body .todo span,
+  #todo-body .todo input {
+    display: inline-block;
+    width: 48%;
+  }
+
+  #todo-header,
+  #todo-body .todo {
+    display: flex;
+    align-items: center;
+  }
+
+  #todo-body .todo svg {
+    cursor: pointer;
+  }
+}

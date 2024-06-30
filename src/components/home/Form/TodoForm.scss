@@ -1,0 +1,18 @@
+#todo-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  min-width: 300px;
+
+  * {
+    text-align: center;
+  }
+
+  input {
+    width: 100%;
+    border-bottom: 1px solid #43464b2c;
+    padding: 10px;
+  }
+}
